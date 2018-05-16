@@ -1,0 +1,10 @@
+sibling:-
+//div[text() ='Chrome IG Story']//following-sibling::div/div
+(//div[@class= 'a-P-d-va'])[1]/preceding-sibling::div
+
+Ancestor
+(//div[text()='Honey']/ancestor::div)[1]
+//div[text()='Honey']/ancestor::div[@class='F-ia-k S-ph S-pb-qa']
+//*[ancestor::foo[bar[@attr="val"]]]
+//div[text()='Honey']/ancestor::div[position()=1]
+
